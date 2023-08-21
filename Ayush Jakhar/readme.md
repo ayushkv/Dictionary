@@ -1,0 +1,1 @@
+Word Of Words is a user-friendly online dictionary web application designed to provide users with quick and comprehensive word definitions and examples. This interactive platform allows users to explore the meanings and usage of words, enhancing their vocabulary and language comprehension.
