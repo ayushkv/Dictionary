@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(46, 45, 45);
+}
+.definition{
+    position: absolute;
+    top: 55%;
+}
+.search_word{
+    position: absolute;
+    top: 45%;
+    left: 35%;
+}
+#title{
+    position: absolute;
+    top: 10%;
+    left: 34%;
+    font-size: 25px;
+}
+.search{
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+}
+.word{
+    height: 40px;
+    width: 250px;
+    font-weight: bold;
+    text-align: center;
+}
+.meaning{
+    /* height: 40px;
+    width: 800px;
+    font-weight: bold;
+    text-align: center;
+    overflow-x: scroll; */
+    width: 800px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow-x: auto;
+    /* Additional styles for the scrollbar */
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+}
+#title h1{
+    color: white;
+}
+.example{
+    height: 40px;
+    width: 100px;
+    font-size: large;
+    margin-left: 10px;
+    background-color: white;
+    border: none;
+    display: none;
+}
+.example_field{
+    width: 800px;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow-x: auto;
+    /* Additional styles for the scrollbar */
+    border: 1px solid #ccc;
+    padding: 5px;
+    box-sizing: border-box;
+    display: none;
+}
+.example_field_div{
+    position: absolute;
+    top: 65%;
+}
+i{
+    margin-right: 20px;
+    display: none;
+}
+.effect{
+    transition-duration: 2s;
+    transform: rotate(360deg);
+    display: inline;
+}

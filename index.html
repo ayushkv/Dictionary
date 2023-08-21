@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <title>Dictionary</title>
+    </head>
+    <body>
+        <main>
+            <div id="title"><h1><i class="fa-solid fa-book"></i>World of Words</h1></div>
+            <form action="#">
+                <div class="search_word">
+                    <input type="text" placeholder="Type Word" class="word" required>
+                    <button class="search">Search</button>
+                    <button class="example">Example</button>
+                </div>
+            </form>       
+            <div class="definition">
+                <textarea class="meaning" rows="4"></textarea>
+            </div>
+            <div class="example_field_div">
+                <textarea class="example_field" rows="4"></textarea>
+            </div>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+        <script src="script2.js"></script>
+    </body>
+</html>
